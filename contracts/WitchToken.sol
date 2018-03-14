@@ -1,6 +1,6 @@
 pragma solidity ^0.4.21;
 
-import "../ERC20Interface.sol";
+import "./ERC20Interface.sol";
 
 contract WitchToken is ERC20Interface {
     string public name;
